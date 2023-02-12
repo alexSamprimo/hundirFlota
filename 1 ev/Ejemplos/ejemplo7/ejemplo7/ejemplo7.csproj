@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F64AB0DE-16D8-41EB-8D06-B331D4871630}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ejemplo7</RootNamespace>
+    <AssemblyName>ejemplo7</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ejemplo8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplo8.Designer.cs">
+      <DependentUpon>Ejemplo8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiCuadro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiCuadro.Designer.cs">
+      <DependentUpon>MiCuadro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejemplo8.resx">
+      <DependentUpon>Ejemplo8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiCuadro.resx">
+      <DependentUpon>MiCuadro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ejemplo 3\Ejemplo 3.csproj">
+      <Project>{9950e0c1-d627-4950-9411-119dfc62279c}</Project>
+      <Name>Ejemplo 3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ejemplo1\Ejemplo1.csproj">
+      <Project>{6b3d759b-7984-4986-a427-2de4a23d2b26}</Project>
+      <Name>Ejemplo1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ejemplo2\Ejemplo2.csproj">
+      <Project>{57080b25-c435-4089-85bf-d443d26873a4}</Project>
+      <Name>Ejemplo2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ejemplo4\Ejemplo4\Ejemplo4.csproj">
+      <Project>{cce92573-f446-4fd1-8c2c-dbb8b3d6cd45}</Project>
+      <Name>Ejemplo4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ejemplo5\Ejemplo5\Ejemplo5.csproj">
+      <Project>{de42ab4c-1801-408f-ae97-1f7d2a2ab7f5}</Project>
+      <Name>Ejemplo5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ejemplo6\Ejemplo6\Ejemplo6.csproj">
+      <Project>{c8fb3372-9171-4f2a-a98c-82ef56f16422}</Project>
+      <Name>Ejemplo6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\hola1\hola1.csproj">
+      <Project>{93ae7cea-7484-436d-8c75-fdfd5077c102}</Project>
+      <Name>hola1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\hola2\hola2.csproj">
+      <Project>{7a396678-a1c1-4aa4-a99e-da5c0dee268e}</Project>
+      <Name>hola2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\bin\Debug\ruletaRusa.exe.config
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\bin\Debug\ruletaRusa.exe
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\bin\Debug\ruletaRusa.pdb
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.csproj.AssemblyReference.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.Juego.resources
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.Properties.Resources.resources
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.csproj.GenerateResource.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.csproj.CoreCompileInputs.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.exe
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\POO\EjemplosPOO\ruletaRusa\obj\Debug\ruletaRusa.pdb

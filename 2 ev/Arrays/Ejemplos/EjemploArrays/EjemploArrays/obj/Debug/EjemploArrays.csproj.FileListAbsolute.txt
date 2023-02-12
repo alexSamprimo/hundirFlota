@@ -1,0 +1,11 @@
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\bin\Debug\EjemploArrays.exe.config
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\bin\Debug\EjemploArrays.exe
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\bin\Debug\EjemploArrays.pdb
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.csproj.AssemblyReference.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.Form1.resources
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.Properties.Resources.resources
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.csproj.GenerateResource.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.csproj.CoreCompileInputs.cache
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.exe
+C:\Users\ALEXSAMPRIMOPASCUAL\Documents\entornos\visualestudio\2 evaluacion\Arrays\Ejemplos\EjemploArrays\EjemploArrays\obj\Debug\EjemploArrays.pdb
