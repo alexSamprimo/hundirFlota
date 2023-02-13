@@ -1,6 +1,6 @@
 ﻿namespace hundirFlota
 {
-    partial class Form1
+    partial class Tablero
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(111, 331);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(120, 56);
+            this.btnStart.TabIndex = 0;
+            this.btnStart.Text = "Empezar Juego";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 621);
+            this.ClientSize = new System.Drawing.Size(330, 423);
+            this.Controls.Add(this.btnStart);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -43,6 +55,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnStart;
     }
 }
 

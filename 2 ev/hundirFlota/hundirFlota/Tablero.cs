@@ -10,12 +10,13 @@ using System.Windows.Forms;
 
 namespace hundirFlota
 {
-    public partial class Form1 : Form
+    public partial class Tablero : Form
     {
         private int[,] tableroJugador = new int[8, 8]; //creamos los tableros del usuario y el pc
         private int[,] tableroPC = new int[8, 8];
+        private int numBarcos = 0; //barcos del jugador
 
-        public Form1()
+        public Tablero()
         {
             InitializeComponent();
             iniciarTableros();
@@ -23,9 +24,9 @@ namespace hundirFlota
 
         private void iniciarTableros() //este metodo simplemente llena los tableros con 0
         {
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 8; i++)//filas 
             {
-                for (int j = 0; j < 8; j++)
+                for (int j = 0; j < 8; j++)//columnas
                 {
                     tableroJugador[i, j] = 0;
                     tableroPC[i, j] = 0;
@@ -35,36 +36,43 @@ namespace hundirFlota
 
         private void button_Click(Object sender, EventArgs e)
         {
-            Button button = (Button)sender;
-            int x = button.Location.X / button.Width;
+            Button button = (Button)sender; //aqui estoy guardando el boton que he recibido
+            int x = button.Location.X / button.Width; //lo divido entre el ancho y alto respectivamente para obtener los numeros correctamente(0,0)(1,2),etc
             int y = button.Location.Y / button.Height;
-            int numBarcos = 0;
+            //MessageBox.Show("La x: " + x + " La y: " + y);
+            
             //esto es para comprobar si la casilla que se quiere poner el barco esta vacia
-
-            while (numBarcos <6)//bucle para que no deje marcar mas barcos de los que son
+            if (numBarcos == 5)
             {
-                if (x > 0 && tableroJugador[x - 1, y] == 1) //el -1 y +1 es para comprobar la casilla contigua
-                {
-                    return;
-                }
-                if (x < 7 && tableroJugador[x + 1, y] == 1)
-                {
-                    return;
-                }
-                if (y > 0 && tableroJugador[x, y - 1] == 1)
-                {
-                    return;
-                }
-                if (y < 7 && tableroJugador[x, y + 1] == 1)
-                {
-                    return;
-                }
-
-                tableroJugador[x, y] = 1; //si no entra en niguna comprobacion, significa que cumple el requisito de casilla y llena esa posicion con un 1
-                button.BackColor = System.Drawing.Color.Blue; //pintamos la casilla de azul
-                numBarcos++;
-
+                //desactivarTableroJugador();
+                MessageBox.Show("Ya has colocado 5 barcos!");
+                return;
             }
+
+
+            if (x > 0 && tableroJugador[x - 1, y] == 1) //el -1 y +1 es para comprobar la casilla contigua
+             {
+               return;
+             }
+            if (x < 7 && tableroJugador[x + 1, y] == 1)
+             {
+               return;
+             }
+            if (y > 0 && tableroJugador[x, y - 1] == 1)
+             {
+               return;
+             }
+            if (y < 7 && tableroJugador[x, y + 1] == 1)
+             {
+               return;
+             }
+
+             tableroJugador[x, y] = 1; //si no entra en niguna comprobacion, significa que cumple el requisito de casilla y llena esa posicion con un 1
+             button.BackColor = System.Drawing.Color.Blue; //pintamos la casilla de azul
+             numBarcos++;
+
+            
+           
         }
 
         private void Form1_Load(object sender, EventArgs e) //generamos el tablero al iniciar el formulario
@@ -113,6 +121,20 @@ namespace hundirFlota
                 tableroPC[x, y] = 1; //si estas vacias las casillas contiguas, llenara esa posicion con un 1
                 numBarcos++;
 
+            }
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            if (numBarcos == 5)
+            {
+                Juego juego = new Juego(tableroJugador,tableroPC); //se crea el nuevo formulario
+                this.Hide(); //escondemos el formulario actual
+                juego.Show(); //mostramos el nuevo formulario donde se va a jugar
+            }
+            else
+            {
+                MessageBox.Show("No has puesto los 5 barcos!");
             }
         }
     }

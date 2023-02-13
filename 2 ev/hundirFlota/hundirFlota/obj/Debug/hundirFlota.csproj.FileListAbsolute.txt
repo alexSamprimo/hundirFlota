@@ -1,6 +1,5 @@
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.csproj.AssemblyReference.cache
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.csproj.SuggestedBindingRedirects.cache
-C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.Form1.resources
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.Properties.Resources.resources
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.csproj.GenerateResource.cache
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.csproj.CoreCompileInputs.cache
@@ -9,3 +8,5 @@ C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\b
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\bin\Debug\hundirFlota.pdb
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.exe
 C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.pdb
+C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.Juego.resources
+C:\Users\tonit\Desktop\DAM\ENTORNOS DE DESARROLLO\2 ev\hundirFlota\hundirFlota\obj\Debug\hundirFlota.Tablero.resources
